@@ -22,6 +22,9 @@
         "twig/twig": ">2",
         "knplabs/knp-paginator-bundle": ">5.4"
     },
+    "conflict": {
+        "knplabs/knp-paginator-bundle": ">=6.0 <6.7"
+    },
     "suggest": {
         "symfony/webpack-encore-bundle": "to use the Stimulus assets included in this bundle",
         "symfony/ux-turbo": "*"
